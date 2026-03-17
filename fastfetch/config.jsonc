@@ -9,7 +9,6 @@
     "separator": "  ",
     "color": {
      "keys": "#55D8F9",
-     "1": "38;2;137;19;236",
      "title": "#56FF2C",
      "output": "#FFFFFF"
      }
