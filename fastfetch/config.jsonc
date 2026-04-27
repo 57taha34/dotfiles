@@ -1,14 +1,14 @@
 {
   "logo": {
-    "type": "kitty",
-    "source": "/Users/User/.local/share/fastfetch/images/apple.png",
+    "type": "kitty", // "file"
+    "source":/* "void" */ "/Users/tahayasinkarabulut/.local/share/fastfetch/images/erlikhan.png",
     "width": 35,
     "height": 20
   },
   "display": {
     "separator": "  ",
     "color": {
-     "keys": "#55D8F9",
+     "keys": "#1931D9",
      "title": "#56FF2C",
      "output": "#FFFFFF"
      }
@@ -32,6 +32,7 @@
     { "type": "display",     "key": "{#separator}│  {#keys}󰹑 Resolution" },
     { "type": "shell",       "key": "{#separator}│  {#keys}󰞷 Shell" },
     { "type": "terminalfont","key": "{#separator}│  {#keys}󰛖 Font" },
+    { "type": "terminal",    "key": "{#separator}│  {#keys}󰞷 Terminal" },
     { "type": "custom",      "format": "{#1}│" },
 
     // Hardware Information
@@ -43,13 +44,13 @@
     { "type": "custom", "format": "{#1}│" },
 
     // Network
-    { "type": "custom",  "format": "{#1}│ {#}Network" },
-    { "type": "localip", "key": "{#separator}│  {#keys}󰩟 Local IP" },
-    { "type": "publicip","key": "{#separator}│  {#keys}󰖟 Public IP" },
-    { "type": "wifi",    "key": "{#separator}│  {#keys}󰖩 WiFi" }, 
-    { "type": "dns",     "key": "{#separator}│  {#keys}󰇖 DNS" },
-    { "type": "netio",   "key": "{#separator}│  {#keys}󰓅 Net I/O" },
-    { "type": "custom",  "format": "{#1}│" },
+ //   { "type": "custom",  "format": "{#1}│ {#}Network" },
+ //   { "type": "localip", "key": "{#separator}│  {#keys}󰩟 Local IP" },
+ //   { "type": "publicip","key": "{#separator}│  {#keys}󰖟 Public IP" },
+ //   { "type": "wifi",    "key": "{#separator}│  {#keys}󰖩 WiFi" }, 
+ //   { "type": "dns",     "key": "{#separator}│  {#keys}󰇖 DNS" },
+ //   { "type": "netio",   "key": "{#separator}│  {#keys}󰓅 Net I/O" },
+ //   { "type": "custom",  "format": "{#1}│" },
 
     // Footer
     { "type": "colors", "key": "{#separator}│", "symbol": "circle" },
